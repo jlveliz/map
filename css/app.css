@@ -1,11 +1,11 @@
 @font-face {
   font-family: BlackGotham;
-  src: url("/fonts/Gotham Black Regular.ttf");
+  src: url("../fonts/Gotham Black Regular.ttf");
 }
 
 @font-face {
   font-family: LightGotham;
-  src: url("/fonts/Gotham-Light.otf");
+  src: url("../fonts/Gotham-Light.otf");
 }
 
 /* Add Animation */
