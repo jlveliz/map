@@ -65,6 +65,15 @@ const setInfoData = data => {
     return list;
 }
 
+const setComingSoon = e => {
+    let comgSoonDom  = document.createElement('h3')
+    let cmgSoonT = document.createTextNode("Próximamente")
+    comgSoonDom.classList.add("coming-soon")
+    comgSoonDom.appendChild(cmgSoonT)
+
+    return comgSoonDom
+}
+
 const changeFillPolygon = (element, event) => {
     const fillColor = event == 'mouseover' ? "024693" : "0095D6";
     element.addEventListener(event, e => {
@@ -109,7 +118,7 @@ async function showModalInfo(e) {
         if(!e.target.classList.contains('next')) {
             modalContent.appendChild(setInfoData(data));
         } else {
-            alert("hola pedro carbo")
+            modalContent.appendChild(setComingSoon());
         }
     }
 }
