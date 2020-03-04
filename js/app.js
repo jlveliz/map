@@ -106,7 +106,12 @@ async function showModalInfo(e) {
         modal.style.display = "block";
         modalTitle.innerHTML = AppName + ' ' + cityTitle
         modalContent.innerHTML = '';
-        modalContent.appendChild(setInfoData(data));
+        debugger
+        if(!e.target.classList.contains('next')) {
+            modalContent.appendChild(setInfoData(data));
+        } else {
+            alert("hola pedro carbo")
+        }
     }
 }
 
