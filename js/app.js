@@ -6,7 +6,7 @@
 
 const AppName = "Guayas Contigo";
 
-const Url = '/data/data.json';
+const Url = './data/data.json';
 
 
 async function getData(id) {
