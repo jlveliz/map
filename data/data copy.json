@@ -1,0 +1,108 @@
+// [
+//     {
+//         "id": "colimes",
+//         "name": "Colimes",
+//         "asistentes": "2000 asistentes",
+//         "pacientes": "1500 personas atendidas ",
+//         "medicinas": "2500 Medicinas entregadas",
+//         "mascotas": "200 Mascotas atendidas"
+//     },
+//     {
+//         "id": "isidro_ayora",
+//         "name": "Isidro Ayora",
+//         "asistentes": "2500 asistentes",
+//         "pacientes": "2500 personas atendidas ",
+//         "medicinas": "2000 Medicinas entregadas",
+//         "mascotas": "200 Mascotas atendidas"
+//     }, 
+//     {
+//         "id": "simon_bolivar",
+//         "name": "Simon Bolivar",
+//         "asistentes": "3000 asistentes",
+//         "pacientes": "300 personas atendidas ",
+//         "medicinas": "3000 Medicinas entregadas",
+//         "mascotas": "2500 Mascotas atendidas"
+//     }, {
+//         "id": "milagro",
+//         "name": "Milagro",
+//         "asistentes": "3500 asistentes",
+//         "pacientes": "500 personas atendidas ",
+//         "medicinas": "2000 Medicinas entregadas",
+//         "mascotas": "100 Mascotas atendidas"
+//     }, {
+//         "id": "pedro_carbo",
+//         "name": "Pedro Carbo",
+//         "asistentes": "4000 asistentes",
+//         "pacientes": "200 personas atendidas ",
+//         "medicinas": "2000 Medicinas entregadas",
+//         "mascotas": "200 Mascotas atendidas"
+//     }, {
+//         "id": "salitre",
+//         "name": "Pedro Carbo",
+//         "asistentes": "9000 asistentes",
+//         "pacientes": "1200 personas atendidas ",
+//         "medicinas": "1000 Medicinas entregadas",
+//         "mascotas": "300 Mascotas atendidas"
+//     }, {
+//         "id" : "bucay",
+//         "name": "Bucay",
+//         "data" : [
+//             {"lugar": "Cabecera Cantonal","raciones": "300 Raciones"}
+//         ]
+//     }
+// ]
+
+
+[
+        {
+            "id": "colimes",
+            "name": "Colimes",
+            "asistentes": "2000 asistentes",
+            "pacientes": "1500 personas atendidas ",
+            "medicinas": "2500 Medicinas entregadas",
+            "mascotas": "200 Mascotas atendidas"
+        },
+        {
+            "id": "isidro_ayora",
+            "name": "Isidro Ayora",
+            "asistentes": "2500 asistentes",
+            "pacientes": "2500 personas atendidas ",
+            "medicinas": "2000 Medicinas entregadas",
+            "mascotas": "200 Mascotas atendidas"
+        }, 
+        {
+            "id": "simon_bolivar",
+            "name": "Simon Bolivar",
+            "asistentes": "3000 asistentes",
+            "pacientes": "300 personas atendidas ",
+            "medicinas": "3000 Medicinas entregadas",
+            "mascotas": "2500 Mascotas atendidas"
+        }, {
+            "id": "milagro",
+            "name": "Milagro",
+            "asistentes": "3500 asistentes",
+            "pacientes": "500 personas atendidas ",
+            "medicinas": "2000 Medicinas entregadas",
+            "mascotas": "100 Mascotas atendidas"
+        }, {
+            "id": "pedro_carbo",
+            "name": "Pedro Carbo",
+            "asistentes": "4000 asistentes",
+            "pacientes": "200 personas atendidas ",
+            "medicinas": "2000 Medicinas entregadas",
+            "mascotas": "200 Mascotas atendidas"
+        }, {
+            "id": "salitre",
+            "name": "Pedro Carbo",
+            "asistentes": "9000 asistentes",
+            "pacientes": "1200 personas atendidas ",
+            "medicinas": "1000 Medicinas entregadas",
+            "mascotas": "300 Mascotas atendidas"
+        }, {
+            "id" : "bucay",
+            "name": "Bucay",
+            "data" : [
+                {"lugar": "Cabecera Cantonal","raciones": "300 Raciones"}
+            ]
+        }
+    ]

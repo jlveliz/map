@@ -33,16 +33,29 @@ span {
   font-family: "LightGotham", "Sans Serif";
 }
 
-.container {
+table {
   width: 100%;
+  border: 1px solid #cdcdcd;
+  empty-cells: hide;
+}
+
+table td {
+  border: 1px solid #cdcdcd;
+}
+
+.container {
+  width: 90%;
   max-height: 50%;
+  margin: 0 auto;
 }
 
 .container svg {
   display: block;
   text-align: center;
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
+  padding: 0px;
+  margin: 0 auto;
 }
 
 polygon {
@@ -61,6 +74,15 @@ polygon:hover {
 
 .visited {
   fill: #777 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-header {
+  color: #f7cd00;
+  font-size: 2.5rem;
 }
 
 .next {
