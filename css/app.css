@@ -177,3 +177,7 @@ polygon:hover {
     font-weight: bold;
     color: #e20613;
 }
+
+#leyend {
+  margin-top: 6rem;
+}

@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guayas Politico</title>
+	<title>Guayas Politico</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css" >
     <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body>
     <div class="container">
 		<div class="row">
-			<h1 class="text-center text-header">Raciones Entregadas en la <br> Provincia del Guayas</h1>
-			<div class="col-12" id="map-content">
+			<h1 class="text-center text-header col-12">Provincia del Guayas</h1>
+			<div class="col-9" id="map-content">
 				<svg
 				version="1.1"
 				id="Capa_1"
@@ -21,8 +22,8 @@
 				y="0px"
 				width="800px"
 				height="1280px"
-				viewBox="0 340 800 1280"
-				enable-background="0 340 800 1280"
+				viewBox="0 630 800 1280"
+				enable-background="0 630 800 1280"
 				xml:space="preserve"
 			  >
 				<polygon
@@ -5511,6 +5512,11 @@
 				  Hola mundo
 				</text>
 			  </svg>
+			</div>
+			<div class="col-3 p-2 mt-5" >
+				<div class="card border border-warning bg-primary text-white" id="leyend">
+					<h3 class="text-center"> <strong> 10.000 Kits Entregadas</strong></h3>
+				</div>
 			</div>
 		</div>
      
